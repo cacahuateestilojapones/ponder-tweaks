@@ -63,7 +63,7 @@ local function CreateMenu(Menu)
 	MissileTypes:SetName("MissileTypes")
 	local MissileList = Menu:AddComboBox()
 	MissileList:SetName("MissileList")
-	
+
 	local MissileBase = Menu:AddCollapsible("Missile Information")
 	local MissileClass = MissileBase:AddLabel()
 	local MissileDesc = MissileBase:AddLabel()

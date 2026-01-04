@@ -57,7 +57,7 @@ if CLIENT then
 		local Missile      = Base.MissileData
 		local GuidanceList = Base:AddComboBox()
 		GuidanceList:SetName("GuidanceList")
-		local GuidanceBase = Base:AddPanel("ACF_Panel")	
+		local GuidanceBase = Base:AddPanel("ACF_Panel")
 		local FuzeList     = Base:AddComboBox()
 		FuzeList:SetName("FuzeList")
 		local FuzeBase     = Base:AddPanel("ACF_Panel")
